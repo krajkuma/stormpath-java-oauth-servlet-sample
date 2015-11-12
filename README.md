@@ -3,6 +3,11 @@
 This repository takes the [Stormpath Servlet Example](https://github.com/stormpath/stormpath-sdk-java/tree/master/examples/servlet) 
 from the sdk and adds a standalone Java program that demonstrates accessing a protected page with an OAuth 2 Bearer token.
 
+**Note**: This is addresses the particular case where one needs to interact with the REST API directly from Java. It is *not* the
+recommended best practice for token auth and token management with the Java SDK. Refer to: http://docs.stormpath.com/java/apidocs/
+and the `oauth` package for more information.
+
+
 ### Build
 
 ```
