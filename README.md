@@ -40,7 +40,7 @@ In a separate terminal window, you can run the standalone Java application like 
 ```
 java \
 -Dcommand=getToken -Dusername=<email address> -Dpassword=<password> \
--jar target/stormpath-sdk-examples-servlet-uber-1.0.RC5.1.jar
+-jar target/stormpath-sdk-examples-servlet-uber-0.1.0-SNAPSHOT.jar
 ```
 
 You will get output like this:
@@ -59,7 +59,7 @@ Next, you can run the Java application to hit a protected resource using the tok
 java \
 -Dcommand=getPage \
 -Dtoken=eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2Yjk5OWRiMC0zN2VmLTQ2MzQtYmIyMi1kMWE4ZTE1MWI1ZTAiLCJpYXQiOjE0NDcyNzY4MDIsInN1YiI6Imh0dHBzOi8vYXBpLnN0b3JtcGF0aC5jb20vdjEvYWNjb3VudHMvdFFlVFg1V0k3blNXaHdPazZ3bmZCIiwiZXhwIjoxNDQ3MjgwNDAyfQ.vBlWuzhyMTYl5eeihmHH7LxgIkGwzWPB7VW4yR7iOz8 \
--jar target/stormpath-sdk-examples-servlet-uber-1.0.RC5.1.jar
+-jar target/stormpath-sdk-examples-servlet-uber-0.1.0-SNAPSHOT.jar
 ```
 
 You will get output like this:
